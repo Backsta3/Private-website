@@ -1,0 +1,46 @@
+body{
+    font-family: 'Piedra', cursive;
+    margin: 0px;
+}
+#frst-name{
+    color: deeppink;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px
+}
+
+.sec1{
+    background-image:url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.float1{
+    width: 30%;
+    float: left;
+    margin-left: 15%;
+    margin-top: 17%;
+    padding-left: 5%;
+}
+.float2{
+    width: 35%;
+    float: left;
+    margin-top: 8%;
+
+}
+
+.float2 img{
+    width: 100%;
+    
+}
+section{
+    height: 900px;
+}
+.button1{
+    text-decoration: none;
+    background-color: rgb(214, 58, 144);
+    padding: 15px 25px;
+    border-radius: 7px;
+    color: floralwhite;
+}
