@@ -2,6 +2,9 @@ body{
     font-family: 'Piedra', cursive;
     margin: 0px;
 }
+p{
+    color: rgba(72, 96, 97, 0.774);
+}
 #frst-name{
     color: deeppink;
 }
@@ -16,6 +19,15 @@ h2{
     background-image:url(images/header-bg.png);
     background-repeat: no-repeat;
 }
+.sec2{
+    background-image:url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.sec3{
+    background-image:url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 800px;
+}   
 .float1{
     width: 30%;
     float: left;
@@ -29,7 +41,13 @@ h2{
     margin-top: 8%;
 
 }
-
+.float3{
+    width: 35%;
+    float: left;
+    margin-top:5% ;
+    margin-left: 12%;
+    padding-left: 5%;
+}
 .float2 img{
     width: 100%;
     
@@ -43,4 +61,69 @@ section{
     padding: 15px 25px;
     border-radius: 7px;
     color: floralwhite;
+}
+.float3 img{
+    width: 85%;
+}
+.float4{
+    width:30%;
+   float: left;
+    margin-right: 5%;
+    margin-top: 13%;
+    padding-right: 3%;
+}
+.align1{
+    text-align: center;
+    margin-top: 10%;
+    color:  rgba(216, 83, 100, 0.788);
+}
+.img-width{
+    width: 20%;
+    margin: 9% 0% 5% 10%;
+    border-radius: 5px;
+    
+    box-shadow:  15px 15px 40px dimgrey; 
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 300px;
+    margin-top: 20%;
+}
+.align{
+    text-align: center;
+    color:  rgba(223, 28, 54, 0.781);
+}
+.h3-color{
+    color: rgb(206, 166, 36);
+}
+.box-added{
+    box-shadow: 15px 15px 45px dimgrey; 
+    border-radius: 10px;
+    height: 80%;
+}
+.Half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(  rgba(17, 17, 184, 0.897), rgba(20, 151, 20, 0.849));
+    border-image-slice: 1;
+    background-color: lightyellow;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgba(20, 151, 20, 0.842), rgba(17, 17, 180, 0.911));
+    border-image-slice: 1;
+    background-color: lightyellow;
+    margin-top: 5%;
+}
+.h3-color{
+    color: rgb(206, 166, 36);
 }
