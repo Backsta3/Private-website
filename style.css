@@ -14,7 +14,13 @@ h1{
 h2{
     font-size: 30px
 }
-
+h4{
+    font-size: 21px;
+}
+h6{
+    font-size: 12px;
+    color: rgba(72, 96, 97, 0.774);
+}
 .sec1{
     background-image:url(images/header-bg.png);
     background-repeat: no-repeat;
@@ -78,7 +84,7 @@ section{
 }
 .button1{
     text-decoration: none;
-    background-color: rgb(214, 58, 144);
+    background-color: rgb(223, 98, 125);
     padding: 15px 25px;
     border-radius: 7px;
     color: floralwhite;
@@ -101,8 +107,9 @@ section{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    height: 700px;
+    height: 900px;
     margin-top: 10%;
+    padding-top: 5%;
 }
 .align{
     text-align: center;
@@ -121,7 +128,7 @@ section{
 .box-added{
     box-shadow: 15px 15px 45px dimgrey; 
     border-radius: 10px;
-    height: 35%;
+    height: 30%;
 }
 .Half{
     width: 40%;
@@ -130,7 +137,7 @@ section{
     padding-left: 2%;
 }
 #full-stack{
-    border-left: 7px solid;
+    border-right: 7px solid;
     border-image: linear-gradient(  rgba(17, 17, 184, 0.897), rgba(20, 151, 20, 0.849));
     border-image-slice: 1;
     background-color: lightyellow;
@@ -160,6 +167,46 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 900px;
+    height: 1000px;
+    margin-top: 13%;
+    padding-top: 10%;
+}
+.alcn{
+    text-align: center;
+    padding-top: 2%;
+    height: 1100px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.last-h1{
+    color:  rgba(216, 83, 100, 0.788);
+}
+.contact{
+    color: floralwhite;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700px;
+    background-color: rgb(223, 98, 125);
+    text-align: center;
+    margin-left:600px ;
+    margin-right:600px;
+    height: 15%;
     margin-top: 10%;
+    font-size:14px ;
+}
+.contact:hover{
+    color: white;
+    background: rgb(158, 61, 82);}
+#deco{
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 25px;
+}
+footer{
+    padding-top: 13%;
+    font-size: 15px;
+}
+.pg{
+    text-decoration: none;
+    color: lightskyblue;
 }
